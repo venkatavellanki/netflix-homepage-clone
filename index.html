@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <a class="navbar-brand fw-bold" href="#">Netflix</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">TV Shows</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">My List</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><img src="images/profile.png" alt="Profile" class="profile-icon"></a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Banner -->
+<section class="hero-banner d-flex flex-column justify-content-center text-start">
+    <div class="hero-content px-5">
+        <h1>Stranger Things</h1>
+        <p>When a young boy disappears, his mother, a police chief, and friends confront terrifying supernatural forces.</p>
+        <div class="hero-buttons">
+            <button class="btn btn-light btn-lg">Play</button>
+            <button class="btn btn-outline-light btn-lg">More Info</button>
+        </div>
+    </div>
+</section>
+
+<!-- Movie Categories -->
+<section class="movie-row">
+    <h3 class="category-title">Trending Now</h3>
+    <div class="movies-container d-flex overflow-auto">
+        <img src="images/movie1.jpg" alt="Movie1" class="movie-card">
+        <img src="images/movie2.jpg" alt="Movie2" class="movie-card">
+        <img src="images/movie3.jpg" alt="Movie3" class="movie-card">
+        <img src="images/movie4.jpg" alt="Movie4" class="movie-card">
+        <img src="images/movie5.jpg" alt="Movie5" class="movie-card">
+    </div>
+</section>
+
+<section class="movie-row">
+    <h3 class="category-title">Popular on Netflix</h3>
+    <div class="movies-container d-flex overflow-auto">
+        <img src="images/movie6.jpg" alt="Movie6" class="movie-card">
+        <img src="images/movie7.jpg" alt="Movie7" class="movie-card">
+        <img src="images/movie8.jpg" alt="Movie8" class="movie-card">
+    </div>
+</section>
+
+<section class="movie-row">
+    <h3 class="category-title">Top Rated</h3>
+    <div class="movies-container d-flex overflow-auto">
+        <img src="images/movie9.jpg" alt="Movie9" class="movie-card">
+        <img src="images/movie10.jpg" alt="Movie10" class="movie-card">
+        <img src="images/movie11.jpg" alt="Movie11" class="movie-card">
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light p-4 text-center">
+    <p>© 2025 Netflix Clone | Responsive Frontend Practice</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Optional JS -->
+<script src="script.js"></script>
+</body>
+</html>
